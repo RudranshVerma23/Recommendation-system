@@ -46,8 +46,14 @@ if st.button("Get Recommendations"):
         # Select the appropriate row
         col = row1[counter] if counter < 5 else row2[counter - 5]
 
+        book_title = books.loc[book, 'title']
+        book_image = books.loc[book, 'coverImg']
+        book_link = f"https://www.goodreads.com/search?q={book_title}"  # Ensure you have a URL column in your dataset
+
         with col:
-            st.image(books.loc[book, 'coverImg'], width=150)  # Set larger width
-            st.text(books.loc[book, 'title'])
+            # Hyperlinked image
+            st.markdown(f'<a href="{book_link}" target="_blank"><img src="{book_image}" width="150"></a>', unsafe_allow_html=True)
+            # Hyperlinked text
+            st.markdown(f'<a href="{book_link}" target="_blank" style="color: white; text-decoration: none; font-size: 16px;">{book_title}</a>', unsafe_allow_html=True)
         
         counter += 1
