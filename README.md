@@ -2,7 +2,14 @@
 
 ## Credits
 
-This Book Recommendation System app was developed by [Rudransh Verma](https://github.com/RudranshVerma23) and [Khushi Jain](https://github.com/jainkhushi23).
+This Book Recommendation System app was developed by [**Rudransh Verma**](https://github.com/RudranshVerma23) and [**Khushi Jain**](https://github.com/jainkhushi23) as a final group assignment of the Google Developer Groups (GDG) Project - **Suggesteria**
+
+---
+## App Link
+
+You can try the live version of this Book Recommendation System app by clicking the link below:
+
+[📚 Book Recommendation System](https://book-recommendation-system-gdg.streamlit.app/)
 
 ---
 
