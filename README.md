@@ -8,6 +8,7 @@ This Book Recommendation System app was developed by [**Rudransh Verma**](https:
 ## App Link
 
 You can try the live version of this Book Recommendation System app by clicking the link below:
+NOTE: The site may be temporarily closed when you visit it. If it is mentioned that the app has gone to sleep, click on "Yes, get it back up". It may take a few minutes to be functional again.
 
 [📚 Book Recommendation System](https://book-recommendation-system-gdg.streamlit.app/)
 
